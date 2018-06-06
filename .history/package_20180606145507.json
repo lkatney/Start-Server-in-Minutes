@@ -1,5 +1,5 @@
 {
-  "name": "script-loader",
+  "name": "Start-server-in-minutes",
   "version": "0.0.1",
   "description": "A very simple static file server to start in minutes",
   "main": "server.js",
@@ -20,6 +20,6 @@
     "body-parser": "^1.1.2",
     "errorhandler": "^1.0.1",
     "method-override": "^1.0.0",
-	  "html" : "^0.0.7"
+	"html" : "^0.0.7"
   }
 }
