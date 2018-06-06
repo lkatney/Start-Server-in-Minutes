@@ -1,10 +1,8 @@
 <script>
 	var loadElement = document.getElementById("script-container");
-	for(var i=0; i< store_data.length; i++){
-			store_elm.appendChild(link);
-	}
+	loadElement.innerHTML(template());
 
 	function template(){
-		return "<h3> Welcome to script-loader</h3>";
+		return "<h3> Welcome to script-loader </h3>";
 	}
 </script>
